@@ -23,27 +23,27 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create a resource group and VMs. One VM will be Windows 10, and the other will be Linux Ubuntu.
+- Step 2: within the Windows 10 VM, download Wireshark.
+- Step 3: Once Wireshark is installed, create a new packet.
+- Step 4: After setting up your packet, filter any traffic and observe the changes.
 
 <h2>Actions and Observations</h2>
 
 ![Network-security-groups-P1](https://github.com/user-attachments/assets/173a3f11-9ff1-4c72-ae6f-bc7c016e7028)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Creating my resource groups and VM's. I'm using Windows 10 and Linux Ubuntu as my virtual machines.
 </p>
 <br />
 
 ![Security Traffic-installing wireshark inside VM  p2](https://github.com/user-attachments/assets/cf099626-35b2-4d3d-ad8c-6991b7aa80e3)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Downloading wireshark on my Windows 10 VM, and setting up a packet capture.
 </p>
 <br />
 
 ![P3  network traffic -filtering imcp with wireshark](https://github.com/user-attachments/assets/ea838373-1656-416a-a762-7337a88ab1bd)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now that I have my packet set up, I can filter IMCP, SSH, and DHCP traffic. I can also go into Azure, block any traffic I want within the firewall, and observe that change.
 </p>
 <br />
